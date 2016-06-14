@@ -8,7 +8,7 @@
     "url": "http://bouzuya.net/"
   },
   "beater": {
-    "dir": ".tmp/test/",
+    "dir": "./.tmp/test/",
     "require": [
       "./scripts/enable-power-assert.js"
     ]
