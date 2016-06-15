@@ -63,7 +63,7 @@ const run = (): void => {
     process.exit(0);
   }
 
-  const reporterName = opts.reporter ? opts.reporter : 'beater-reporter';
+  const reporterName = opts.reporter ? opts.reporter : 'beater-cli-reporter';
   const reporter = requireReporter(reporterName);
 
   const requires: string[] = (
