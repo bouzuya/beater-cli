@@ -1,7 +1,7 @@
 {
   "name": "beater-cli",
   "description": "A command-line interface for beater",
-  "version": "0.1.2",
+  "version": "0.2.0",
   "author": {
     "name": "bouzuya",
     "email": "m@bouzuya.net",
