@@ -1,4 +1,4 @@
-import { Reporter } from './reporter';
+import { Reporter } from 'beater-reporter';
 
 export interface Options {
   files: string[];

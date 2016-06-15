@@ -2,11 +2,10 @@ import * as childProcess from 'child_process';
 import { EventEmitter } from 'events';
 import { cpus } from 'os';
 import * as path from 'path';
+import { Reporter, TestResult } from 'beater-reporter';
 import { Message } from './types/message';
 import { Options } from './types/options';
 import { Promise } from './globals/promise';
-import { Reporter } from './types/reporter';
-import { TestResult } from './types/test-result';
 
 export class Beater extends EventEmitter {
   private reporter: Reporter;

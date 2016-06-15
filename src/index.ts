@@ -2,8 +2,8 @@ import * as minimist from 'minimist';
 import * as existsSync from 'exists-sync';
 import * as fs from 'fs';
 import * as path from 'path';
+import { Reporter } from 'beater-reporter';
 import { Beater } from './beater';
-import { Reporter } from './types/reporter';
 import { optionsParser } from './options-parser';
 import { process } from './globals/process';
 

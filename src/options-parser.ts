@@ -3,9 +3,9 @@ import * as existsSync from 'exists-sync';
 import * as path from 'path';
 import * as colo from 'colo';
 import * as fs from 'fs';
+import { Reporter } from 'beater-reporter';
 import { CommandLineOptions } from './types/command-line-options';
 import { ConfigFileOptions } from './types/config-file-options';
-import { Reporter } from './types/reporter';
 
 const loadRcOptions = (configFile: string): ConfigFileOptions => {
   if (!existsSync(configFile)) return {};
