@@ -1,7 +1,6 @@
 import * as minimist from 'minimist';
 import * as existsSync from 'exists-sync';
 import * as path from 'path';
-import * as colo from 'colo';
 import * as fs from 'fs';
 import { Reporter } from 'beater-reporter';
 import { CommandLineOptions } from './types/command-line-options';
