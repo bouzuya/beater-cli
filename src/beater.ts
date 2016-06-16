@@ -68,7 +68,7 @@ export class Beater extends EventEmitter {
         );
         const hasError = Object
           .keys(this.fileResults)
-          .some(file => this.fileResults[file].length > 0);
+          .some(file => this.fileResults[file].some(result => !!result.error));
         this.emit('finish', hasError);
       } else {
         // do nothing
