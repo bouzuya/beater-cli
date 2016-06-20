@@ -2,11 +2,11 @@
   "compilerOptions": {
     "allowSyntheticDefaultImports": true,
     "declaration": true,
-    "module": "commonjs",
+    "module": "es2015",
     "moduleResolution": "node",
     "noImplicitAny": true,
     "noImplicitReturns": true,
-    "outDir": ".tmp",
+    "outDir": ".tmp/es2015/",
     "removeComments": true,
     "rootDir": ".",
     "sourceMap": false,
