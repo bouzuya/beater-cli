@@ -68,7 +68,7 @@
     "clean": "rm -rf .tmp/ lib/",
     "copy": "cpx '.tmp/es5/src/**/*.js' lib/ && cpx '.tmp/es2015/src/**/*.d.ts' lib/",
     "prepublish": "typings install && npm run clean && npm run build",
-    "test": "beater",
+    "test": "./bin/beater.sh",
     "watch": "parallelshell 'tsc --watch' 'npm run watch-babel' 'npm run watch-copy' 'npm run watch-test'",
     "watch-babel": "npm run babel -- --watch",
     "watch-copy": "watch --wait 2 'npm run copy' '.tmp/es5/src/'",
