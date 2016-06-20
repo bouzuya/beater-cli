@@ -13,7 +13,7 @@
     ]
   },
   "beater": {
-    "dir": "./.tmp/test/",
+    "dir": "./.tmp/es5/test/",
     "require": [
       "./scripts/enable-power-assert.js"
     ]
